@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("Hello world!");
 
-        Scanner console = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter a distance in km: ");
 
