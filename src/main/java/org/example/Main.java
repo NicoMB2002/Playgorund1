@@ -27,4 +27,10 @@ public class Main {
                         "Price: %.2f$",
                 distance, mileDistance, gallonAmount, gasLitre, gasPrice);
     }
+    public static int sumInts(int num1, int num2) {
+        int sum = num1 + num2;
+
+        return sum;
+    }
+
 }
