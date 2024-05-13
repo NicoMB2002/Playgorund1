@@ -4,6 +4,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Scanner console = new Scanner(System.in);
+
+        System.out.println("Please input an e-mail address: ");
+        String eMail = console.nextLine().toLowerCase();
+
+        String at = String.valueOf(eMail.indexOf("@"));
+        String dotAfterAt = at.substring(Integer.parseInt("@") + 1, Integer.parseInt("."));
+
+        String beforeAt = at.substring(0, Integer.parseInt("@"));
+
         System.out.println("Hello world!");
 
         Scanner console = new Scanner(System.in);
